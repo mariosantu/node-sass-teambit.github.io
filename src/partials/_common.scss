@@ -10,7 +10,7 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -34,9 +34,15 @@ ul {
 ul li a {
     text-decoration: none;
     color: $brand_primary_color;
+    font-weight: bold;
 }
 
 .button-logo-img {
-    height: 15px;
+    height: 20px;
     width: auto;
+    vertical-align: middle;
+}
+
+.common-button {
+    @include button;
 }

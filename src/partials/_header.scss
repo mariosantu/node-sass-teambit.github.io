@@ -20,7 +20,6 @@ header{
           }
 
           button {
-            @include flex;
             color: blue;
             padding: 10px;
             border: 1px solid blue;

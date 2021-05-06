@@ -10,7 +10,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -23,7 +23,7 @@ img {
 }
 
 .txt {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 ul {
@@ -34,11 +34,21 @@ ul {
 ul li a {
   text-decoration: none;
   color: #58402c;
+  font-weight: bold;
 }
 
 .button-logo-img {
-  height: 15px;
+  height: 20px;
   width: auto;
+  vertical-align: middle;
+}
+
+.common-button {
+  padding: 4px;
+  color: white;
+  background-color: darkblue;
+  border: none;
+  border-radius: 5px;
 }
 
 header {
@@ -61,7 +71,6 @@ header .container .list-container .menu li {
   padding-right: 10px;
 }
 header .container .list-container button {
-  display: flex;
   color: blue;
   padding: 10px;
   border: 1px solid blue;
@@ -69,4 +78,25 @@ header .container .list-container button {
 }
 header .container .list-container button span {
   padding-left: 3px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.jumbotron .jumbotrons-title h1 {
+  font-size: 43px;
+}
+.jumbotron .jumbotrons-title p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.jumbotron .jumbotrons-img img {
+  height: 450px;
+  width: auto;
+}
+
+.details-section {
+  background-color: #ffe7d2;
 }

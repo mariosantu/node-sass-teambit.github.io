@@ -1,0 +1,32 @@
+// jumbotron
+
+.jumbotron {
+    @include flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    .jumbotrons-title{
+         h1 {
+            font-size: 43px;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 20px 0;
+        }
+    }
+
+    .jumbotrons-img img {
+        height: 450px;
+        width: auto;
+    }
+}
+
+// jumbotron end
+
+// details end
+
+
+.details-section {
+    background-color: $background_color;
+}
