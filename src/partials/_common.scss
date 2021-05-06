@@ -2,9 +2,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+.txt-color {
+    color: $brand_primary_color;
+}
+
+.background {
+    background-color: $background_color;
+}
+
+.txt {
+    font-size: $common_font;
+}
+
+ul {
+    @include flex;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: $brand_primary_color;
+}
+
+.button-logo-img {
+    height: 15px;
+    width: auto;
 }
