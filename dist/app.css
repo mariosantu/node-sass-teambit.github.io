@@ -101,27 +101,87 @@ header .container .list-container button span {
   width: auto;
 }
 
-.details-section {
+.details-section-container {
   background-color: #ffe7d2;
 }
-.details-section .details-section {
+.details-section-container .details-section.divider {
   border-bottom: 1px solid black;
 }
-.details-section .details-section .rabbit {
+.details-section-container .details-section .rabbit {
   padding: 100px 0;
 }
-.details-section .details-section .rabbit img {
+.details-section-container .details-section .rabbit img {
   height: 250px;
   width: auto;
 }
-.details-section .details-section .title {
+.details-section-container .details-section .title {
   padding: 60px 0;
 }
-.details-section .details-section .details-img {
+.details-section-container .details-section .details-img {
   display: flex;
   justify-content: space-around;
 }
-.details-section .details-section .details-img img {
+.details-section-container .details-section .details-img img {
   height: 100px;
   width: auto;
+}
+
+.tools-sx-container {
+  display: flex;
+  padding: 65px 0;
+}
+.tools-sx-container .tools-xl-img img {
+  height: 600px;
+  width: auto;
+}
+.tools-sx-container .tools-info {
+  width: 20%;
+}
+.tools-sx-container .tools-info-title h2 {
+  padding-bottom: 20px;
+}
+.tools-sx-container .tools-info-details p {
+  padding-bottom: 20px;
+}
+.tools-sx-container .tools-info-img {
+  padding-top: 82px;
+}
+.tools-sx-container .tools-info-img img {
+  height: 340px;
+  width: auto;
+}
+.tools-sx-container .tools-info-link a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tools-dx-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 65px 0;
+}
+.tools-dx-container .tools-xl-img img {
+  height: 600px;
+  width: auto;
+}
+.tools-dx-container .tools-info {
+  width: 20%;
+  margin-right: 25px;
+}
+.tools-dx-container .tools-info-title h2 {
+  padding-bottom: 20px;
+}
+.tools-dx-container .tools-info-details p {
+  padding-bottom: 20px;
+}
+.tools-dx-container .tools-info-img {
+  padding-top: 82px;
+}
+.tools-dx-container .tools-info-img img {
+  height: 400px;
+  width: auto;
+}
+.tools-dx-container .tools-info-link a {
+  font-weight: bold;
+  text-decoration: none;
 }
