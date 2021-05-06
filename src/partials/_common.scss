@@ -26,6 +26,10 @@ img {
     font-size: $common_font;
 }
 
+.centering-txt {
+    text-align: center;
+}
+
 ul {
     @include flex;
     list-style-type: none;

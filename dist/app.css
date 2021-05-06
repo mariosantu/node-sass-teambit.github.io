@@ -26,6 +26,10 @@ img {
   font-size: 15px;
 }
 
+.centering-txt {
+  text-align: center;
+}
+
 ul {
   display: flex;
   list-style-type: none;
@@ -99,4 +103,25 @@ header .container .list-container button span {
 
 .details-section {
   background-color: #ffe7d2;
+}
+.details-section .details-section {
+  border-bottom: 1px solid black;
+}
+.details-section .details-section .rabbit {
+  padding: 100px 0;
+}
+.details-section .details-section .rabbit img {
+  height: 250px;
+  width: auto;
+}
+.details-section .details-section .title {
+  padding: 60px 0;
+}
+.details-section .details-section .details-img {
+  display: flex;
+  justify-content: space-around;
+}
+.details-section .details-section .details-img img {
+  height: 100px;
+  width: auto;
 }

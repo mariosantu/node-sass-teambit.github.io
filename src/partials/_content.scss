@@ -29,4 +29,33 @@
 
 .details-section {
     background-color: $background_color;
+
+    .details-section{
+        border-bottom: 1px solid black;
+
+        .rabbit {
+            padding: 100px 0;
+
+            img {
+                height: 250px;
+                width: auto;
+            }
+        }
+
+        .title {
+            padding: 60px 0;
+        }
+
+        .details-img {
+            @include flex;
+            justify-content: space-around;
+
+            img {
+                height: 100px;
+                width: auto;
+            }
+        }
+    }
+
+    
 }
