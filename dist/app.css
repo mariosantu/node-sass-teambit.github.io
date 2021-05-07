@@ -96,10 +96,6 @@ header .container .list-container button span {
   font-size: 20px;
   padding: 20px 0;
 }
-.jumbotron .jumbotrons-img img {
-  height: 450px;
-  width: auto;
-}
 
 .details-section-container {
   background-color: #ffe7d2;
@@ -146,10 +142,6 @@ header .container .list-container button span {
 .tools-sx-container .tools-info-img {
   padding-top: 82px;
 }
-.tools-sx-container .tools-info-img img {
-  height: 340px;
-  width: auto;
-}
 .tools-sx-container .tools-info-link a {
   font-weight: bold;
   text-decoration: none;
@@ -176,10 +168,6 @@ header .container .list-container button span {
 }
 .tools-dx-container .tools-info-img {
   padding-top: 82px;
-}
-.tools-dx-container .tools-info-img img {
-  height: 400px;
-  width: auto;
 }
 .tools-dx-container .tools-info-link a {
   font-weight: bold;
