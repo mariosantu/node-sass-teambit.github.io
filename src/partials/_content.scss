@@ -147,4 +147,118 @@
 
 // details end
 
+// media query 
 
+@media screen and (max-width: 1250px) {
+
+    .tools-sx-container {
+        @include flex;
+        flex-direction: column;
+        padding: 65px 0;
+    
+        .tools-xl-img img {
+            height: 100%;
+            width: 100%;
+        }
+    
+        .tools-info {
+           width: 100%;
+           text-align: center;
+    
+           &-title {
+               h2 {
+                   padding-bottom: 20px;
+               }
+           }
+    
+           &-details {
+               p{
+                  padding-bottom: 20px; 
+               }
+           }
+    
+           &-img {
+               padding-top: 82px;
+
+               img {
+                height: 340px;
+                width: auto;
+               }
+           }
+    
+           &-link {
+               a {
+                  font-weight: bold;
+                  text-decoration: none;
+               }
+           }
+        }
+    }
+
+    .tools-dx-container {
+        @include flex;
+        flex-direction: column;
+        padding: 65px 0;
+    
+        .tools-xl-img img {
+            height: 100%;
+            width: 100%;
+        }
+    
+        .tools-info {
+           width: 100%;
+           margin-right: 25px;
+           text-align: center;
+
+    
+           &-title {
+               h2 {
+                   padding-bottom: 20px;
+               }
+           }
+    
+           &-details {
+               p{
+                  padding-bottom: 20px; 
+               }
+           }
+    
+           &-img {
+               padding-top: 82px;
+
+               img {
+                height: 340px;
+                width: auto;
+               }
+           }
+    
+           &-link {
+               a {
+                  font-weight: bold;
+                  text-decoration: none;
+               }
+           }
+        }
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .jumbotron {
+        @include flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0;
+    
+        .jumbotrons-title{
+             h1 {
+                font-size: 43px;
+            }
+    
+            p {
+                font-size: 20px;
+                padding: 20px 0;
+            }
+        }
+    }
+ }

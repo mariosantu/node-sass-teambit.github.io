@@ -173,3 +173,83 @@ header .container .list-container button span {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1250px) {
+  .tools-sx-container {
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0;
+  }
+  .tools-sx-container .tools-xl-img img {
+    height: 100%;
+    width: 100%;
+  }
+  .tools-sx-container .tools-info {
+    width: 100%;
+    text-align: center;
+  }
+  .tools-sx-container .tools-info-title h2 {
+    padding-bottom: 20px;
+  }
+  .tools-sx-container .tools-info-details p {
+    padding-bottom: 20px;
+  }
+  .tools-sx-container .tools-info-img {
+    padding-top: 82px;
+  }
+  .tools-sx-container .tools-info-img img {
+    height: 340px;
+    width: auto;
+  }
+  .tools-sx-container .tools-info-link a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .tools-dx-container {
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0;
+  }
+  .tools-dx-container .tools-xl-img img {
+    height: 100%;
+    width: 100%;
+  }
+  .tools-dx-container .tools-info {
+    width: 100%;
+    margin-right: 25px;
+    text-align: center;
+  }
+  .tools-dx-container .tools-info-title h2 {
+    padding-bottom: 20px;
+  }
+  .tools-dx-container .tools-info-details p {
+    padding-bottom: 20px;
+  }
+  .tools-dx-container .tools-info-img {
+    padding-top: 82px;
+  }
+  .tools-dx-container .tools-info-img img {
+    height: 340px;
+    width: auto;
+  }
+  .tools-dx-container .tools-info-link a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  .jumbotron .jumbotrons-title h1 {
+    font-size: 43px;
+  }
+  .jumbotron .jumbotrons-title p {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+}
