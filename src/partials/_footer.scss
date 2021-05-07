@@ -1,0 +1,52 @@
+footer {
+    padding: 40px 0;
+
+    .footer-list {
+        @include flex;
+        justify-content: space-between;
+    
+        &-logo {
+          @include flex;
+    
+          &-details {
+              font-size: 20px;
+              padding-left: 15px;
+          }
+            
+        }
+         ul {
+            flex-direction: column;
+
+            > :first-child {
+                padding-bottom: 20px;
+                font-size: 25px;
+            }
+
+            li {
+                font-size: $common_font;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
+
+// media query
+
+@media screen and (max-width: 850px) {
+    footer {
+        padding: 40px 0;
+    
+        .footer-list {
+            @include flex;
+            flex-direction: column;
+            padding: 0 100px;   
+
+            &-logo {
+              @include flex;
+              padding-bottom: 25px;
+                
+            }
+        }
+    }
+
+ }

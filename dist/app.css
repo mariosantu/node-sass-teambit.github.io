@@ -15,11 +15,11 @@ img {
 }
 
 .txt-color {
-  color: #58402c;
+  color: #0414B3;
 }
 
 .background {
-  background-color: #ffe7d2;
+  background-color: #7F14D4;
 }
 
 .txt {
@@ -37,7 +37,7 @@ ul {
 
 ul li a {
   text-decoration: none;
-  color: #58402c;
+  color: #0414B3;
   font-weight: bold;
 }
 
@@ -72,6 +72,7 @@ header .container .list-container .menu {
   align-items: center;
 }
 header .container .list-container .menu li {
+  display: inline-block;
   padding-right: 10px;
 }
 header .container .list-container button {
@@ -84,6 +85,11 @@ header .container .list-container button span {
   padding-left: 3px;
 }
 
+@media screen and (max-width: 550px) {
+  header .container .list-container {
+    display: none;
+  }
+}
 .jumbotron {
   display: flex;
   justify-content: space-between;
@@ -97,27 +103,34 @@ header .container .list-container button span {
   padding: 20px 0;
 }
 
-.details-section-container {
-  background-color: #ffe7d2;
+.details-section-container,
+.get-start-section-container {
+  background-color: #7F14D4;
 }
-.details-section-container .details-section.divider {
+.details-section-container .details-section.divider,
+.get-start-section-container .details-section.divider {
   border-bottom: 1px solid black;
 }
-.details-section-container .details-section .rabbit {
+.details-section-container .details-section .rabbit,
+.get-start-section-container .details-section .rabbit {
   padding: 100px 0;
 }
-.details-section-container .details-section .rabbit img {
+.details-section-container .details-section .rabbit img,
+.get-start-section-container .details-section .rabbit img {
   height: 250px;
   width: auto;
 }
-.details-section-container .details-section .title {
+.details-section-container .details-section .title,
+.get-start-section-container .details-section .title {
   padding: 60px 0;
 }
-.details-section-container .details-section .details-img {
+.details-section-container .details-section .details-img,
+.get-start-section-container .details-section .details-img {
   display: flex;
   justify-content: space-around;
 }
-.details-section-container .details-section .details-img img {
+.details-section-container .details-section .details-img img,
+.get-start-section-container .details-section .details-img img {
   height: 100px;
   width: auto;
 }
@@ -172,6 +185,46 @@ header .container .list-container button span {
 .tools-dx-container .tools-info-link a {
   font-weight: bold;
   text-decoration: none;
+}
+
+.get-start-section-container {
+  text-align: center;
+}
+.get-start-section-container .get-start-title {
+  font-size: 40px;
+  padding: 60px 0;
+}
+.get-start-section-container .get-start-title p {
+  font-size: 40px;
+  font-weight: bold;
+}
+.get-start-section-container .get-start-title img {
+  height: 50px;
+  width: auto;
+}
+.get-start-section-container .box-info {
+  width: 50%;
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid #939aba;
+  border-radius: 5px;
+}
+.get-start-section-container .box-info-overview {
+  text-align: start;
+  padding: 15px;
+}
+.get-start-section-container .box-info-img {
+  display: flex;
+  padding: 5px;
+  padding-left: 8px;
+}
+.get-start-section-container .box-info-img img {
+  height: 40px;
+  width: auto;
+  padding: 0 7px;
+}
+.get-start-section-container .get-start-button {
+  padding: 30px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -251,5 +304,60 @@ header .container .list-container button span {
   .jumbotron .jumbotrons-title p {
     font-size: 20px;
     padding: 20px 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .details-section-container .details-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .details-section-container .details-img > div {
+    padding-top: 40px;
+  }
+
+  .tools-sx-container .tools-info-img img,
+.tools-dx-container .tools-info-img img {
+    height: 100%;
+    width: 100%;
+  }
+}
+footer {
+  padding: 40px 0;
+}
+footer .footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-list-logo {
+  display: flex;
+}
+footer .footer-list-logo-details {
+  font-size: 20px;
+  padding-left: 15px;
+}
+footer .footer-list ul {
+  flex-direction: column;
+}
+footer .footer-list ul > :first-child {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+footer .footer-list ul li {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    padding: 40px 0;
+  }
+  footer .footer-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+  }
+  footer .footer-list-logo {
+    display: flex;
+    padding-bottom: 25px;
   }
 }
